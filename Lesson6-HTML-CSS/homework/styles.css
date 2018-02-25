@@ -1,3 +1,10 @@
+body{
+    background: url("https://upload.wikimedia.org/wikipedia/commons/1/17/Hiroshima-Hondori_Shopping_Street_at_dusk_4.jpg");
+    background-position: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
 h1 {
     color: midnightblue;
 }
@@ -8,6 +15,7 @@ img {
 #thirdDiv {
     height: 600px;
     width: 500px;
+    margin: auto;
 }
 
 #spanId {
@@ -17,16 +25,23 @@ img {
     border: 2px goldenrod solid;
 }
 .container{
-    display:flex;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .divClass {
 	display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    flex-direction: column;
 }
 
 li {
 list-style-type: none;
+text-align: center;
+}
+
+ul {
+    padding: 0;
 }
